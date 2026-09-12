@@ -1,238 +1,273 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Last page</title>
+    <title>ABOUT STANCE CARTEL</title>
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<h1>ABOUT THE PAGE</h1>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
+<style>
 
-	<style>
+    body {
+        background-color: white;
+        margin: 0;
+        color: #111111;
+        font-family: "Bell MT", serif;
+    }
 
-		h1{
-			background-color: pink ;
-			text-align: center;
-			color: teal;
-			width:1000px;
-			margin-left:170px;
-		}
+    h1 {
+        text-align: center;
+        background-color: #0B1F3A;
+        color: #FFFFFF;
+        margin: 0;
+        padding: 20px;
+        font-family: "Century", serif;
+        border-bottom: 3px solid #1E90FF;
+    }
 
-		h2{
+    /* NAVIGATION */
 
-			color: white;
-			background-color:teal;
-			text-align: center;
-			margin-left:170px ;
-			width:1000px;
-		}
-		 table, th, td{
+    .navbar {
+        background-color: #111111;
+        padding: 15px;
+        border-bottom: 2px solid #1E90FF;
+    }
 
-		 	border:2px solid pink ;
-		 	border-collapse: collapse ;
-		 	padding:8px ;
-		 	width:1000px ;
-		 	height: 50px;
-		 	background-color: teal;
+    .navbar a {
+        color: #FFFFFF;
+        background-color: #1E90FF;
+        text-decoration: none;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        padding: 10px 18px;
+        margin: 5px;
+        display: inline-block;
+    }
 
-            }
+    .navbar a:hover {
+        background-color: #0B1F3A;
+        color: #FFFFFF;
+    }
 
+    .title {
+        text-align: center;
+        color: #0B1F3A;
+        font-size: 30px;
+        margin: 25px;
+    }
 
-        .one{
-            	 margin-top:20px ;
-                 margin-left: 170px;
-            	 border:2px solid pink ;
-                 border-collapse: collapse ;
-		 	     padding:8px ;
-		 	     width:465px ;
-		 	     height: 30px;
-		 	     color: white;
-		 	     
-		 	     
-            }
-            .two{
-            	margin-top:-205px ;
-                 margin-left:674px;
-            	 border:2px solid pink ;
-                 border-collapse: collapse ;
-		 	     padding:8px ;
-		 	     width:498px ;
-		 	     height: 30px;
-		 	     color: white;
+    .form-box {
+        width: 600px;
+        max-width: 85%;
+        margin: 20px auto;
+        padding: 25px;
+        background-color: #0B1F3A;
+        border: 2px solid #1E90FF;
+    }
 
-		 	     }
-     
-		 th{
+    .form-box h2 {
+        text-align: center;
+        color: white;
+        font-family: Arial, sans-serif;
+    }
 
-		 	background-color:grey;
+    .form-box p {
+        text-align: center;
+        color: #D9E6F2;
+    }
 
-		 	color:whitesmoke;
+    label {
+        display: block;
+        margin-top: 15px;
+        margin-bottom: 5px;
+        color: #FFFFFF;
+        font-weight: bold;
+    }
 
-		 }
+    input,
+    select,
+    textarea {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        background-color: white;
+        color: #111111;
+        border: 1px solid #1E90FF;
+        font-size: 15px;
+    }
 
-		 tr:nth-child(even) {
+    input:focus,
+    select:focus,
+    textarea:focus {
+        outline: none;
+        border: 2px solid #00BFFF;
+    }
 
-		 	background-color: teal;
-		 }
+    textarea {
+        height: 100px;
+        resize: vertical;
+    }
 
+    .submit-button {
+        width: 100%;
+        margin-top: 20px;
+        padding: 12px;
+        background-color: #1E90FF;
+        color: #FFFFFF;
+        border: none;
+        font-size: 17px;
+        font-weight: bold;
+        cursor: pointer;
+    }
 
+    .submit-button:hover {
+        background-color: #00BFFF;
+        color: #FFFFFF;
+    }
 
-		 body{
+    .about {
+        width: 75%;
+        margin: 30px auto;
+        padding: 20px;
+        background-color: #0B1F3A;
+        border: 2px solid #1E90FF;
+        text-align: center;
+    }
 
-		 	background:linear-gradient(to bottom, teal,pink);
-		 }
+    .about h2 {
+        color: white;
+    }
 
-		 .copy{
+    .about p {
+        color: #D9E6F2;
+    }
 
-				margin-top: 795px;
-				text-align:center;
+    footer {
+        background-color: #111111;
+        border-top: 2px solid #1E90FF;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 30px;
+    }
 
-
-
-
-			}
-
-			nav{
-
-
-				text-align:center;
-				margin-left:1010px ;
-				margin-top:-522px ;
-				display: flex;
-				gap: 10px;
-
-
-
-
-			}
-
-			.copy{
-				margin-top:510px;
-
-                }
-
-	</style>
-
-
-
-    
-
-
-
-
+</style>
 
 
 </head>
+
 <body>
 
-	<h2>MY STUFF</h2>
 
-	<center><table style="color:white">
-		<tr>
-		<th>NAME</th>
-		<th>AGE</th>
-		<th>CAR</th>
-		<th>NUMBER PLATE</th>
+<h1>ABOUT STANCE CARTEL</h1>
 
-		</tr>
-		<tr>
-			<td>MOSA</td>
-			<td>20</td>
-			<td>MERCEDEZ</td>
-			<td>A 345 BBG</td>
+<nav class="navbar">
 
-		</tr>
-		<tr>
+    <div class="container justify-content-center">
 
-			<td>MAMOSA</td>
-			<td>20</td>
-			<td>AUDI</td>
-			<td>G 714 BBG</td>
+        <div class="navbar-nav flex-row">
 
-		</tr>
-	</table></center>
+            <a href="index.html">HOME</a>
+            <a href="slime2.html">MAIN</a>
+            <a href="slime3.html">ABOUT</a>
 
-	<table class="one">
-		
-		<tr>
-			<th>NUMBERS</th>
-			<th>ADRESS</th>
-			<th>ID NUM</th>
+        </div>
 
-			</tr>
-			<tr>
-				<td>58524128</td>
-				<td>Ha Pita</td>
-				<td>101</td>
-				
-             </tr>
-             <tr>
+    </div>
 
-             	<td>63033125</td>
-             	<td>Ha Seoli</td>
-             	<td>102</td>
-             	
+</nav>
 
+<div class="title">
 
+    MY STUFF
 
-             </tr>
-    </table>
+</div>
 
-    <table class="two">
-    	<tr>
-    		<th>LICENSE NUM</th>
-    		<th>MILEAGE</th>
-    		<th>YEARS</th>
-    	</tr>
-    	<tr>
-    		<td>001</td>
-    		<td>15 000 miles</td>
-    		<td>2010</td>
-    	</tr>
-    	<tr>
-    		<td>002</td>
-    		<td>13 000 miles</td>
-    		<td>2022</td>
-    	</tr>
+<div class="form-box">
 
-    		
+    <h2>JOIN THE STANCE CARTEL</h2>
 
+    <p>
+        Enter your information and tell us about your car.
+    </p>
 
+    <form>
 
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
 
-    </table>
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age" placeholder="Enter your age" min="13" max="100" required>
 
-    <nav>
+        <label for="car">Your Car</label>
+        <input type="text" id="car" name="car" placeholder="e.g. Volkswagen Golf 1" required>
 
-    	<a href="slime.html"> Home</a>
+        <label for="plate">Number Plate</label>
+        <input type="text" id="plate" name="plate" placeholder="e.g. ABC 123">
 
+        <label for="address">City / Area</label>
+        <input type="text" id="address" name="address" placeholder="e.g. Maseru">
 
-    	<a href="slime2.html"> Main</a>
+        <label for="year">Car Year</label>
+        <input type="number" id="year" name="year" placeholder="e.g. 2020" min="1950" max="2026">
 
+        <label for="mileage">Mileage</label>
+        <input type="number" id="mileage" name="mileage" placeholder="e.g. 15000">
 
-    	<a href="slime.html"> About</a>
-    	
+        <label for="type">Car Type</label>
 
+        <select id="type" name="type">
 
+            <option value="">Select your car type</option>
+            <option value="stance">Stance</option>
+            <option value="sports">Sports Car</option>
+            <option value="classic">Classic</option>
+            <option value="daily">Daily Driver</option>
+            <option value="other">Other</option>
 
-    </nav>
+        </select>
 
+        <label for="message">Tell Us About Your Car</label>
 
+        <textarea id="message" name="message" placeholder="Tell us about your build..."></textarea>
 
- 
+        <button type="submit" class="submit-button">
 
+            JOIN STANCE CARTEL
 
-    <footer class=" copy rights"> 2026 all copy rights reserved.</footer>
+        </button>
 
+    </form>
 
+</div>
 
+<div class="about">
 
+    <h2>ABOUT STANCE CARTEL</h2>
 
+    <p>
+        Stance Cartel is a car community focused on
+        modified cars, stance culture and car lovers.
+    </p>
 
+    <p>
+        Our goal is to bring car enthusiasts together
+        and showcase clean, unique and customised builds.
+    </p>
 
+</div>
 
-	
+<footer>
+
+    @2026 STANCE CARTEL | ALL RIGHTS RESERVED
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
+
 </html>
